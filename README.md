@@ -1,10 +1,6 @@
-# UnmixDiff: Unmixing-based Diffusion Model for Hyperspectral Image Synthesis
-
-
-
 ## Introduction
 
-This is the source code for our paper: [UnmixDiff: Unmixing-based Diffusion Model for Hyperspectral Image Synthesis]
+This is the implementation of article: [UnmixDiff: Unmixing-based Diffusion Model for Hyperspectral Image Synthesis]
 ## Usage
 
 ### Data
