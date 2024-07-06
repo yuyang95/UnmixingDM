@@ -7,7 +7,7 @@
 This is the source code for our paper: [UnmixDiff: Unmixing-based Diffusion Model for Hyperspectral Image Synthesis]
 ## Usage
 
-### Step 1: Train the Unmixing network and infer the abundance maps by the trained Unmixing network.
+### 1: Train the Unmixing network and infer the abundance maps by the trained Unmixing network.
 Input: Oringinal HSIs.
 
 Output: Inferred abundance maps.
@@ -23,7 +23,7 @@ python Unmixing.py infer --dataset_name 'Chikusei' --n_blocks 3 --gpus "0"
 
 After that, we can obtain the inferred abundance of RGB dataset in `./datasets/inferred_abu/`.
 
-### Step 2: Train the Diffusion model and synthesize abundace maps by the trained Diffusion model.
+### 2: Train the Diffusion model and synthesize abundace maps by the trained Diffusion model.
 Input: Inferred abundance maps by Step 1.
 
 Output: Synthetic abundance maps.
@@ -38,7 +38,7 @@ After training, modify the 'resume_state' in the `./config/*.json` file, and run
 
 After that, we can obtain the synthesized abundance in `./experiments/ddpm/\*/mat_results/`.
 
-### Step 3: HSI synthesis.
+### 3: HSI synthesis.
 Input: Synthetic abundance maps by Step 2.
 
 Output: Synthetic HSIs.
