@@ -1,5 +1,5 @@
 {
-    "name": "RS-256",
+    "name": "Chikusei",
     "phase": "train", // train or val
     "gpu_ids": [
         1
@@ -55,7 +55,7 @@
             }
         },
         "diffusion": {
-            "image_size": 128,
+            "image_size": 256,
             "channels": 5, //sample channel
             "conditional": false // unconditional generation or unconditional generation(super_resolution)
         }
