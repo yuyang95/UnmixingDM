@@ -9,8 +9,7 @@ This is the source code for our paper: [UnmixDiff: Unmixing-based Diffusion Mode
 
 ### Data
 
-The selected datasets are the open-source datasets, including Chikusei, Whu-OHS, and ARAD. Before training the network, you should download the dataset (HSI), and crop the HSI into several mat files. It is recommand that the spatial size do not larger than 256 x 256. If you want train the network using your own data, please modify the input according to the provided data.
-
+The selected datasets are open-source, including Chikusei, Whu-OHS, and ARAD. Before training the network, please download the dataset (HSI) and crop the HSI into several .MAT files. It is recommended that the spatial size should not be larger than 256 x 256. If you want to train the network using your own data, please modify the input according to the provided data.
 
 ### 1: Train the Unmixing network and infer the abundance maps by the trained Unmixing network.
 Input: Oringinal HSIs.
