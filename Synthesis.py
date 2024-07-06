@@ -38,8 +38,8 @@ train_path    = ''
 # name of checkpoints of the unmixingAE # ./experiments/unmixing/ckpts/*.pth
 model_name    = '' 
 # save dir of final results
-result_path   = './experiments/fusion/HSI/'
-image_path    = './experiments/fusion/RGB/'
+result_path   = './experiments/Synthesis/HSI/'
+image_path    = './experiments/Synthesis/RGB/'
 os.makedirs(result_path, exist_ok=True)
 os.makedirs(image_path, exist_ok=True)
 
