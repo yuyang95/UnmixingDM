@@ -7,6 +7,11 @@
 This is the source code for our paper: [UnmixDiff: Unmixing-based Diffusion Model for Hyperspectral Image Synthesis]
 ## Usage
 
+### Data
+
+The selected datasets are the open-source datasets, including Chikusei, Whu-OHS, and ARAD. Before training the network, you should download the dataset (HSI), and crop the HSI into several mat files. It is recommand that the spatial size do not larger than 256 x 256. If you want train the network using your own data, please modify the input according to the provided data.
+
+
 ### 1: Train the Unmixing network and infer the abundance maps by the trained Unmixing network.
 Input: Oringinal HSIs.
 
