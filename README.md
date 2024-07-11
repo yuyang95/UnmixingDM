@@ -1,12 +1,13 @@
 ## Introduction
 
 This is the implementation of article: [UnmixDiff: Unmixing-based Diffusion Model for Hyperspectral Image Synthesis]
-## Usage
-
 
 ## Citation
 
 Y. Yu, E. Pan, Y. Ma, X. Mei, Q. Chen and J. Ma, "UnmixDiff: Unmixing-based Diffusion Model for Hyperspectral Image Synthesis," in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2024.3425517.
+
+## Usage
+
 
 ### Data
 
