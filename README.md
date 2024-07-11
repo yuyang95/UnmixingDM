@@ -3,6 +3,11 @@
 This is the implementation of article: [UnmixDiff: Unmixing-based Diffusion Model for Hyperspectral Image Synthesis]
 ## Usage
 
+
+## Citation
+
+Y. Yu, E. Pan, Y. Ma, X. Mei, Q. Chen and J. Ma, "UnmixDiff: Unmixing-based Diffusion Model for Hyperspectral Image Synthesis," in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2024.3425517.
+
 ### Data
 
 The selected datasets are open-source, including Chikusei, Whu-OHS, and ARAD. Before training the network, please download the dataset (HSI) and crop the HSI into several MAT files. It is recommended that the spatial size should not be larger than 256 x 256. If you want to train the network using your own data, please modify the input according to the provided data.
