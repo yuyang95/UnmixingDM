@@ -76,6 +76,6 @@
         }
     },
     "wandb": {
-        "project": "MSF-Diff"
+        "project": "UnmixingDM"
     }
 }
