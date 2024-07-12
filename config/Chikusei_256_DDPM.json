@@ -57,7 +57,7 @@
         "diffusion": {
             "image_size": 256,
             "channels": 5, //sample channel
-            "conditional": false // unconditional generation or unconditional generation(super_resolution)
+            "conditional": false // unconditional generation
         }
     },
     "train": {
