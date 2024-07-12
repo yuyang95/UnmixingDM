@@ -13,7 +13,7 @@ from torch.utils.data import DataLoader
 from torchnet import meter
 from tensorboardX import SummaryWriter
 
-from model.unmixingAE import UnmixingAE
+from unmixingmodel.unmixingAE import UnmixingAE
 from core import utils
 from core.common import *
 from core.loaddata import HSIDataset
