@@ -20,12 +20,12 @@ Output: Inferred abundance maps.
 
 For training the unmixing net, change the file path and run the following code.
 
-python Unmixing.py train --dataset_name 'Chikusei' --n_blocks 3 --epochs 50 --batch_size 8 --gpus "1"
+python Unmixing.py train 
 
 
 After training, run the following code to get the abundance maps. 
 
-python Unmixing.py infer --dataset_name 'Chikusei' --n_blocks 3 --gpus "0"
+python Unmixing.py infer 
 
 After that, we can obtain the inferred abundance in `./datasets/inferred_abu/`.
 
