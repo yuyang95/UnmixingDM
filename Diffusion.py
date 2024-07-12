@@ -48,7 +48,7 @@ if __name__ == "__main__":
     else:
         wandb_logger = None
 
-    train_path    = ''
+    train_path    = './dataset/inferred_abu/'
     train_set = AbuDataset(image_dir=train_path, augment=False)
     train_loader = DataLoader(train_set, batch_size=8, num_workers=4, shuffle=True)
     
