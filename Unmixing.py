@@ -226,8 +226,7 @@ def validate(args, loader, model, criterion):
     return epoch_meter.value()[0]
 
 def infer(args):
-    # inferdata_path  = './dataset/input/'
-    inferdata_path = '/home/mvp/yuydata/Chikusei_128/trains/'
+    inferdata_path  = './dataset/train/'
     result_path   = './dataset/inferred_abu/'
     if not os.path.exists(result_path):
         os.makedirs(result_path)
