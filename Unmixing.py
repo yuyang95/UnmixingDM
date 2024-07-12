@@ -78,13 +78,10 @@ def train(args):
     cudnn.benchmark = True
 
     print('===> Loading datasets')
-    # train_path    = './dataset/trains/'
-    # eval_path     = './dataset/evals/'
-    # test_data_dir = './dataset/tests/'
-    train_path    = '/home/mvp/yuydata/Chikusei_128/trains/'
-    eval_path     = '/home/mvp/yuydata/Chikusei_128/evals/'
-    result_path   = './results/'
-    test_data_dir = '/home/mvp/yuydata/Chikusei_128/tests/'    
+    train_path    = './dataset/trains/'
+    eval_path     = './dataset/evals/'
+    test_data_dir = './dataset/tests/'
+
 
 
     train_set = HSIDataset(image_dir=train_path, augment=False)
