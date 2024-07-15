@@ -7,6 +7,7 @@ import logging
 import torch
 from torch.utils.data import DataLoader
 from tensorboardX import SummaryWriter
+import core.HSImetrics as Metrics
 
 import core.logger as Logger
 import core.vis as visual
